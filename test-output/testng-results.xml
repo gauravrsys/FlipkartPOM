@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Flipkart Test Suite" duration-ms="225486" started-at="2020-04-23T15:55:11Z" finished-at="2020-04-23T15:58:56Z">
+    <groups>
+    </groups>
+    <test name="Flipkart Tests" duration-ms="225486" started-at="2020-04-23T15:55:11Z" finished-at="2020-04-23T15:58:56Z">
+      <class name="com.flipkart.tests.ViewCartPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.tests.ViewCartPageTest@343f4d3d]" name="setUp" is-config="true" duration-ms="49845" started-at="2020-04-23T15:56:55Z" finished-at="2020-04-23T15:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="removeProductTest()[pri:1, instance:com.flipkart.tests.ViewCartPageTest@343f4d3d]" name="removeProductTest" duration-ms="992" started-at="2020-04-23T15:57:45Z" finished-at="2020-04-23T15:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.tests.ViewCartPageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="1954" started-at="2020-04-23T15:57:46Z" finished-at="2020-04-23T15:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipkart.tests.ViewCartPageTest -->
+      <class name="com.flipkart.tests.AddtocartPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.tests.AddtocartPageTest@57baeedf]" name="setUp" is-config="true" duration-ms="29006" started-at="2020-04-23T15:56:17Z" finished-at="2020-04-23T15:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addToCartTest()[pri:1, instance:com.flipkart.tests.AddtocartPageTest@57baeedf]" name="addToCartTest" duration-ms="6848" started-at="2020-04-23T15:56:46Z" finished-at="2020-04-23T15:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.tests.AddtocartPageTest@57baeedf]" name="tearDown" is-config="true" duration-ms="1763" started-at="2020-04-23T15:56:53Z" finished-at="2020-04-23T15:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipkart.tests.AddtocartPageTest -->
+      <class name="com.flipkart.tests.SearchProductTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.tests.SearchProductTest@42e26948]" name="setUp" is-config="true" duration-ms="17172" started-at="2020-04-23T15:55:54Z" finished-at="2020-04-23T15:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnProductTest()[pri:1, instance:com.flipkart.tests.SearchProductTest@42e26948]" name="clickOnProductTest" duration-ms="4693" started-at="2020-04-23T15:56:11Z" finished-at="2020-04-23T15:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnProductTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.tests.SearchProductTest@42e26948]" name="tearDown" is-config="true" duration-ms="1146" started-at="2020-04-23T15:56:16Z" finished-at="2020-04-23T15:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipkart.tests.SearchProductTest -->
+      <class name="com.flipkart.tests.homePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.tests.homePageTest@1794d431]" name="setUp" is-config="true" duration-ms="19664" started-at="2020-04-23T15:55:34Z" finished-at="2020-04-23T15:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.flipkart.tests.homePageTest@1794d431]" name="homePageTitleTest" duration-ms="103" started-at="2020-04-23T15:55:54Z" finished-at="2020-04-23T15:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.tests.homePageTest@1794d431]" name="tearDown" is-config="true" duration-ms="165" started-at="2020-04-23T15:55:54Z" finished-at="2020-04-23T15:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.tests.homePageTest@1794d431]" name="setUp" is-config="true" duration-ms="28284" started-at="2020-04-23T15:57:48Z" finished-at="2020-04-23T15:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchProductTest()[pri:2, instance:com.flipkart.tests.homePageTest@1794d431]" name="searchProductTest" duration-ms="4294" started-at="2020-04-23T15:58:16Z" finished-at="2020-04-23T15:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.tests.homePageTest@1794d431]" name="tearDown" is-config="true" duration-ms="1868" started-at="2020-04-23T15:58:20Z" finished-at="2020-04-23T15:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.tests.homePageTest@1794d431]" name="setUp" is-config="true" duration-ms="27305" started-at="2020-04-23T15:58:22Z" finished-at="2020-04-23T15:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logoutTest()[pri:3, instance:com.flipkart.tests.homePageTest@1794d431]" name="logoutTest" duration-ms="5861" started-at="2020-04-23T15:58:49Z" finished-at="2020-04-23T15:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.tests.homePageTest@1794d431]" name="tearDown" is-config="true" duration-ms="687" started-at="2020-04-23T15:58:55Z" finished-at="2020-04-23T15:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipkart.tests.homePageTest -->
+      <class name="com.flipkart.tests.loginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.tests.loginPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="21180" started-at="2020-04-23T15:55:11Z" finished-at="2020-04-23T15:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.flipkart.tests.loginPageTest@39c0f4a]" name="loginTest" duration-ms="1761" started-at="2020-04-23T15:55:32Z" finished-at="2020-04-23T15:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.tests.loginPageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="670" started-at="2020-04-23T15:55:34Z" finished-at="2020-04-23T15:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipkart.tests.loginPageTest -->
+    </test> <!-- Flipkart Tests -->
+  </suite> <!-- Flipkart Test Suite -->
+</testng-results>

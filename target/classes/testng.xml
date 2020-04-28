@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+
+
+<suite name="Flipkart Test Suite">
+
+
+	<listeners>
+		<listener class-name="com.flipkart.extentreportlistener.ExtentReporterNG" />
+	</listeners>
+	
+	  <test name="Flipkart Tests" >
+	    <classes>
+	       <class name="com.flipkart.tests.loginPageTest" />
+	       <class name="com.flipkart.tests.homePageTest" />
+	       <class name="com.flipkart.tests.SearchProductTest" />
+	       <class name="com.flipkart.tests.AddtocartPageTest" />
+	       <class name="com.flipkart.tests.ViewCartPageTest" />
+	    </classes>
+	  </test>
+</suite>

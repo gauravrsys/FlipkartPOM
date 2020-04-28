@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Flipkart Test Suite]">
+  <listeners>
+    <listener class-name="com.flipkart.extentreportlistener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Flipkart Tests(failed)">
+    <classes>
+      <class name="com.flipkart.tests.homePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- com.flipkart.tests.homePageTest -->
+    </classes>
+  </test> <!-- Flipkart Tests(failed) -->
+</suite> <!-- Failed suite [Flipkart Test Suite] -->

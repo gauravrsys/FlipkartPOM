@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Flipkart Test Suite]">
+  <test thread-count="5" name="Flipkart Tests(failed)">
+    <classes>
+      <class name="com.flipkart.tests.AddtocartPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addToCartTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.flipkart.tests.AddtocartPageTest -->
+    </classes>
+  </test> <!-- Flipkart Tests(failed) -->
+</suite> <!-- Failed suite [Flipkart Test Suite] -->
